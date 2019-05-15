@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Виберіть тип шрифту"
+        android:textSize="26dp" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/radios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/monospace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="monospace" />
+
+        <RadioButton
+            android:id="@+id/serif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="serif" />
+
+        <RadioButton
+            android:id="@+id/serif-monospace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="serif-monospace" />
+
+        <RadioButton
+            android:id="@+id/sans-serif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sans-serif" />
+
+        <RadioButton
+            android:id="@+id/sans-serif-condensed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sans-serif-condensed" />
+
+        <RadioButton
+            android:id="@+id/sans-serif-smallcaps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sans-serif-smallcaps" />
+
+        <RadioButton
+            android:id="@+id/sans-serif-light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sans-serif-light" />
+
+        <RadioButton
+            android:id="@+id/casual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="casual" />
+
+        <RadioButton
+            android:id="@+id/cursive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cursive" />
+    </RadioGroup>
+
+</LinearLayout>
